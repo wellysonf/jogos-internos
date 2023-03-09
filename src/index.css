@@ -9,9 +9,25 @@ body {
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+  background-color: green;
+  width: 100vw;
+  height: 100vh;
 }
 
 code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
+}
+
+.bg_logo_if {
+  background-image: url("..\\public\\img\\bg-logo.png");
+  background-repeat: repeat;
+}
+
+.bg_olimpiadas{
+  background-image: url("..\\public\\img\\bg-olimpics.jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  
 }
