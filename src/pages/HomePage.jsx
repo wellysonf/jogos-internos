@@ -5,9 +5,10 @@ import { FaPlus, FaSearch } from "react-icons/fa";
 
 function HomePage() {
   return (
-    <div className="flex flex-col h-screen gap-2 pb-4 md:gap-4 bg_logo_if">
+    <>
+      <div className="flex flex-col h-screen gap-2 pb-4 md:gap-4 bg_logo_if">
       <Menu />
-      <div className="container flex flex-col gap-2 md:gap-4  grow">
+      {/* <div className="container flex flex-col gap-2 md:gap-4  grow">
         <h2 className="mb-0">Equipes</h2>
         <div className="flex flex-row justify-end">
           <ButtonIcon Icon={<FaPlus />} text="Nova equipe" variant="primary" />
@@ -21,8 +22,10 @@ function HomePage() {
 
           </div>
         </div>
-      </div>
+      </div> */}
     </div>
+    </>
+    
   );
 }
 

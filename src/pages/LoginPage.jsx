@@ -1,5 +1,5 @@
 import { useRef } from 'react';
-import { Button, Form } from 'react-bootstrap';
+
 import { useNavigate } from "react-router-dom";
 
 function LoginPage() {
@@ -14,7 +14,7 @@ function LoginPage() {
   }
   return (
     <div className='w-screen h-screen flex flex-col justify-center items-center gap-4 bg_olimpiadas'>
-      <div className='bg-white/60 p-8 rounded-xl'>
+      {/* <div className='bg-white/60 p-8 rounded-xl'>
         <div className='flex flex-col items-center'>
           <img
             alt="Logo IFPE"
@@ -38,14 +38,14 @@ function LoginPage() {
             <Form.Label>Senha</Form.Label>
             <Form.Control type="password" placeholder="Senha" ref={pass} required />
           </Form.Group>
-          {/* <Form.Group className="mb-3" controlId="formBasicCheckbox">
+          <Form.Group className="mb-3" controlId="formBasicCheckbox">
           <Form.Check type="checkbox" label="Check me out" />
-        </Form.Group> */}
+        </Form.Group>
           <Button variant="primary" type="submit" className='w-full'>
             Entrar
-          </Button>
+          </Button> 
         </Form>
-      </div>
+      </div> */}
     </div>
   );
 }

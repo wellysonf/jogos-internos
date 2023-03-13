@@ -1,14 +1,14 @@
-import { Button } from 'react-bootstrap';
+
 
 
 function ButtonIcon(props) {
     const { Icon, text, variant } = props;
     return (
-        <Button variant={variant}>
+        <button variant={variant}>
             <span className='flex flex-row gap-2 items-center'>
                 {Icon} {text}
             </span>
-        </Button>
+        </button>
     );
 }
 export default ButtonIcon;
